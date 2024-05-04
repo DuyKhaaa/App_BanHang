@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mn_map"
+        android:title="Map"
+        app:showAsAction="always"
+        android:icon="@drawable/map" />
+    <item
+        android:id="@+id/mn_call"
+        android:title="Map"
+        app:showAsAction="always"
+        android:icon="@drawable/call" />
+</menu>

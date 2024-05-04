@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/bm"
+            android:title="Bookmark"
+            android:icon="@drawable/bm"/>
+        <item
+            android:id="@+id/cups"
+            android:title="Ly đĩa sứ"
+            android:icon="@drawable/cups"/>
+        <item
+            android:id="@+id/magnet"
+            android:title="Magnet nam châm"
+            android:icon="@drawable/magnet"/>
+        <item
+            android:id="@+id/key"
+            android:title="Móc khóa"
+            android:icon="@drawable/key"/>
+        <item
+            android:id="@+id/book"
+            android:title="Sổ tay lưu niệm"
+            android:icon="@drawable/book"/>
+        <item
+            android:id="@+id/bamboo"
+            android:title="Mỹ nghệ tre"
+            android:icon="@drawable/bamboo"/>
+        <item
+            android:id="@+id/hat"
+            android:title="Nón"
+            android:icon="@drawable/hat"/>
+        <item
+            android:id="@+id/paint"
+            android:title="Sơn mài mỹ nghệ"
+            android:icon="@drawable/paint"/>
+    </group>
+</menu>

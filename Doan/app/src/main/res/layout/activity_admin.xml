@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/br_login"
+    tools:context=".AdminActivity">
+
+    <Button
+        android:id="@+id/btnADSP"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="330dp"
+        android:layout_marginBottom="40dp"
+        android:background="#FF42331F"
+        android:text="Sản phẩm"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnADDH"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:background="#FF42331F"
+        android:text="Đơn hàng"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnADKH"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="khách hàng"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="#FF42331F"/>
+
+    <Button
+        android:id="@+id/btnADDX"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Đăng xuất"
+        android:layout_gravity="center"
+        android:onClick="funLogoutAdmin"
+        android:textColor="#FF42331F"
+        android:background="@drawable/rounded_button_2" />
+
+</LinearLayout>

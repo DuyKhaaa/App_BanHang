@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/nen">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_account" />
+        <LinearLayout
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="15dp"
+                android:textStyle="italic"
+                android:text="Tên đăng nhập:" />
+            <TextView
+                android:id="@+id/txtTenDN"
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:background="@drawable/edt_profile"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:hint="ten"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="15dp"
+                android:textStyle="italic"
+                android:text="Email:" />
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:background="@drawable/edt_profile"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:hint="mail" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="15dp"
+                android:textStyle="italic"
+                android:text="Số điện thoại:" />
+            <TextView
+                android:id="@+id/txtSDT"
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:background="@drawable/edt_profile"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:hint="sdt" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#BE845F"
+            android:onClick="funLogout"
+            android:text="Đăng xuất"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:textColor="#FF42331F"/>
+    </LinearLayout>
+</FrameLayout>
